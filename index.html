@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SATYAJIT ROUT — Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">SATYAJIT ROUT</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="#download">Download</a>
+    </nav>
+    <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <div class="hero-card">
+        <div class="avatar"></div>
+        <div class="hero-content">
+          <h1>SATYAJIT ROUT</h1>
+          <p class="tag">ASPIRING PROFESSIONAL | STRONG</p>
+          <p class="summary">Enthusiastic and well-spoken individual seeking a Calling Executive position where I can utilize my communication skills, professionalism, and learning mindset to interact effectively with clients.</p>
+
+          <ul class="contact-list">
+            <li>📞9910497351</li>
+            <li>📍 Noida, Uttar Pradesh, India</li>
+            <li>✉️ <a href="mailto:vishalrout200309@gmail.com">vishalrout200309@gmail.com</a></li>
+          </ul>
+
+          <a id="download" class="neon-btn" href="#contact">Contact / Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="skills">
+      <h2>COMMUNICATION & TECHNICAL SKILLS</h2>
+      <div class="grid">
+        <div class="card">Communication Skills — Clear & Polite Speaking</div>
+        <div class="card">MS Office — Word, Excel, PowerPoint</div>
+        <div class="card">Web — HTML, CSS, JavaScript</div>
+        <div class="card">Python Programming</div>
+        <div class="card">MySQL Database Handling</div>
+        <div class="card">Fast Typing & Data Entry</div>
+        <div class="card">Team Collaboration & Time Management</div>
+      </div>
+    </section>
+
+    <section class="panel" id="projects">
+      <h2>PROJECTS / EXPERIENCE</h2>
+      <div class="grid">
+        <div class="project">
+          <h3>Memories Website — Farewell Gallery</h3>
+          <p>Built a simple web gallery (HTML/CSS/JS) to store/display farewell images and videos for school events.</p>
+        </div>
+
+        <div class="project">
+          <h3>Quizi — Quiz-Based Game</h3>
+          <p>Developed an interactive quiz game using JavaScript to practice logic, UI flow and event handling.</p>
+        </div>
+        
+        <div class="project">
+          <h3>Sales Executive — Real Estate</h3>
+          <p>Worked as a Sales Executive in a real estate company. Learned how to communicate professionally with clients, listen actively, understand their needs, and provide appropriate solutions. Gained confidence, client‑handling experience, and exposure to property discussions.</p>
+        </div>
+    </section>
+
+    <section class="panel" id="education">
+      <h2>EDUCATION</h2>
+      <div class="grid two">
+        <div class="card">12th Passed (2025) — CBSE (Computer Science)</div>
+        <div class="card">10th Passed (2023) — CBSE Board</div>
+      </div>
+    </section>
+
+    <section class="panel" id="contact">
+      <h2>CONTACT</h2>
+      <p>If you'd like my full CV as a PDF or want to connect — send an email or message on the phone number above.</p>
+      <div class="small-grid">
+        <div class="chip">Hindi — Fluent</div>
+        <div class="chip">English — Conversational</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">© 2025 SATYAJIT ROUT • Built with neon vibes</footer>
+
+  <script>
+    // simple nav toggle for mobile
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('header nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
